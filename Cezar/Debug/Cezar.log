@@ -1,0 +1,4 @@
+﻿  Cezar.cpp
+D:\Programming\Function\Cezar\Cezar.cpp(5,20): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Programming\Function\Cezar\Cezar.cpp(34): warning C4715: check_code: значение возвращается не при всех путях выполнения
+  Cezar.vcxproj -> D:\Programming\Function\Cezar\Debug\Cezar.exe

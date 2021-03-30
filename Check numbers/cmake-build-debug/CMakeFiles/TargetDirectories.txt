@@ -1,0 +1,3 @@
+D:/Programming/Function/Check numbers/cmake-build-debug/CMakeFiles/Check_numbers.dir
+D:/Programming/Function/Check numbers/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Programming/Function/Check numbers/cmake-build-debug/CMakeFiles/rebuild_cache.dir
