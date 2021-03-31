@@ -125,6 +125,24 @@ string del_zero(string str, int start) {
     return temp;
 }
 /*#########################################################################*/
+//Если в конце нули
+string del_zero_fract(string str) {
+
+    string temp = "";
+
+    int j = str.length()-1;
+    do {
+        if (str[j] == '0')
+            j--;
+        else break;
+    } while (j>0);
+    for (int i = 0; i < j; i++) {
+        temp += str[i];
+    }
+    //cout << temp;
+    return temp;
+}
+/*#########################################################################*/
 
 //сравниваем
 int compare(string str1, string str2) {
@@ -153,8 +171,8 @@ int compare(string str1, string str2) {
     else if (intPart1 == intPart2) {
 
         //если целые части равны
-        string fract1 = fract_part(str1);
-        string fract2 = fract_part(str2);
+        string fract1 = del_zero_fract(fract_part(str1));
+        string fract2 = del_zero_fract(fract_part(str2));
 
         if (fract1 < fract2) return 0;
         else if (fract1 > fract2)return 1;
