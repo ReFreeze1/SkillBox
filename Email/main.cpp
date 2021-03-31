@@ -48,16 +48,6 @@ bool sim_valid(std::string str, int part) {
     return true;
 
 }
-//счетчик
-int counter(const std::string& str) {
-    int count;
-
-        for (int i = 0; i < str.length(); i++) {
-            count++;
-        }
-
-    return count;
-}
 //проверка точек
 bool dot(std::string str) {
     if (str[0] == '.' ) {
